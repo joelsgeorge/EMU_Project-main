@@ -1,0 +1,123 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background-color: brown;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.navbar-brand {
+    font-size: 4vw;
+}
+
+.adjust-button {
+    margin-top: 1.5rem;
+}
+
+.logo {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+@media screen and (max-width: 811px) {
+    .logo {
+        display: none;
+    }
+}
+
+.btn-green {
+    background: #11eb11;
+    background-image: -webkit-linear-gradient(top, #11eb11, #11eb11);
+    background-image: -moz-linear-gradient(top, #11eb11, #11eb11);
+    background-image: -ms-linear-gradient(top, #11eb11, #11eb11);
+    background-image: -o-linear-gradient(top, #11eb11, #11eb11);
+    background-image: linear-gradient(to bottom, #11eb11, #11eb11);
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn-green:hover {
+    background: #11eb11;
+    background-image: -webkit-linear-gradient(top, #11eb11, #11eb11);
+    background-image: -moz-linear-gradient(top, #11eb11, #11eb11);
+    background-image: -ms-linear-gradient(top, #11eb11, #11eb11);
+    background-image: -o-linear-gradient(top, #11eb11, #11eb11);
+    background-image: linear-gradient(to bottom, #11eb11, #11eb11);
+    text-decoration: none;
+}
+
+.btn-red {
+    background: red;
+    background-image: -webkit-linear-gradient(top, red, red);
+    background-image: -moz-linear-gradient(top, red, red);
+    background-image: -ms-linear-gradient(top, red, red);
+    background-image: -o-linear-gradient(top, red, red);
+    background-image: linear-gradient(to bottom, red, red);
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn-red:hover {
+    background: red;
+    background-image: -webkit-linear-gradient(top, red, red);
+    background-image: -moz-linear-gradient(top, red, red);
+    background-image: -ms-linear-gradient(top, red, red);
+    background-image: -o-linear-gradient(top, red, red);
+    background-image: linear-gradient(to bottom, red, red);
+    text-decoration: none;
+}
+
+.live-status {
+    position: relative;
+    /** Changed margin-top from 5% to 35% **/
+    /* margin-top: 35%; */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0 2rem;
+}
+
+.btn:active {
+    background-color: red;
+}
+
+.rake {
+    display: flex;
+    column-gap: 5rem;
+    flex: 0 0 0;
+    margin-top: 2%;
+}
+
+@media screen and (max-width: 811px) {
+    .rake {
+        display: flex;
+        flex-direction: column;
+        column-gap: 5rem;
+
+    }
+
+}
+
+th {
+    max-width: 3.5rem;
+}

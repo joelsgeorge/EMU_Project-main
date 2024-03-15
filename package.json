@@ -1,0 +1,33 @@
+{
+  "name": "emu_project",
+  "version": "1.0.0",
+  "description": "Building trains is harder than it steams!",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bhavansh-01/EMU_Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bhavansh-01/EMU_Project/issues"
+  },
+  "homepage": "https://github.com/Bhavansh-01/EMU_Project#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "firebase": "^9.19.1",
+    "firebase-tools": "^11.27.0",
+    "nodemon": "^2.0.22",
+    "sweetalert2": "^11.7.3",
+    "webpack": "^5.79.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  }
+}
