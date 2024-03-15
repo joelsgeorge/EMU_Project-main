@@ -18,9 +18,10 @@ import Swal from 'sweetalert2';
 const firebaseConfig = {
   apiKey: "AIzaSyBa72OQ7m9BHVCYd2hjhNrQqVBuMF6ZnNs",
   authDomain: "emu-test-a96bc.firebaseapp.com",
+  databaseURL: "https://emu-test-a96bc-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "emu-test-a96bc",
   storageBucket: "emu-test-a96bc.appspot.com",
-  messagingSenderId: "800845578321",
+  messagingSenderId: "8008xx45578321",
   appId: "1:800845578321:web:e3348c6397569924577870",
   measurementId: "G-3DHKHSJCPG"
 //  USE YOUR CONFIG
